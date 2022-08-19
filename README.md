@@ -1,5 +1,39 @@
-- 👋 Hi, I’m @mr-robot-127...
-- 👀 I’m interested in travelling and exploring the unknown world...
-- 🌱 I’m currently learning about you and your security...
-- 💞️ I’m looking to collaborate on nothing...
-- 📫 How to reach me : will be updated soon...
+
+<!doctype html>
+<html>
+<head>
+    <title>Blue</title>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>body {background-color: blue;}</style>
+</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-primary" style="margin-top:50px">
+						<div class="panel-heading">
+							<h3 class="panel-title" style="color:red">Red</h3>
+						</div>
+						<div class="panel-body">
+							<form action="index.php" method="GET">
+								<input type="submit" value="Choose Red"/>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-primary" style="margin-top:50px">
+						<div class="panel-heading">
+							<h3 class="panel-title" style="color:blue">Blue</h3>
+						</div>
+						<div class="panel-body">
+							<form action="index.php" method="POST">
+								<input type="submit" value="Choose Blue"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
